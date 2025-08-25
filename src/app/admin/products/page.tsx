@@ -12,9 +12,9 @@ type RowObj = {
 export default function Products() {
   return (
     <Box pt={{ base: '130px', md: '80px', xl: '80px' }}>
-      <SimpleGrid mb="20px">
+      {/* <SimpleGrid mb="20px"> */}
         <AllProducts />
-      </SimpleGrid>
+      {/* </SimpleGrid> */}
     </Box>
   );
 }
